@@ -1,5 +1,5 @@
 import React from 'react';
-import './App2.css';
+import './App.css';
 import RouteTracker from './RouteTracker';
 
 function App() {
