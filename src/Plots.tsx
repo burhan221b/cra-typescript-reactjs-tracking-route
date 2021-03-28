@@ -32,9 +32,10 @@ function StartPlot(props: PlotProps) {
     return (
         <>
             {/* Plot */}
-            <div className="plot" >
+            <div className="plot first-plot" >
                 <div className="name">
-                    {/* <p>{index} START {city}</p> */}
+                    <p className="place">{index} {city}</p>
+                    <div className="arrow-down"></div>
                 </div>
             </div>
             <div className="path path-start"></div>
@@ -47,9 +48,10 @@ function EndPlot(props: PlotProps) {
     return (
         <>
             {/* Plot */}
-            <div className="plot">
+            <div className="plot last-plot">
                 <div className="name">
-                    {/* <p>{index} END {city}</p> */}
+                    <p className="place">{index} {city}</p>
+                    <div className="arrow-down"></div>
                 </div>
             </div>
             <div className="path path-end"></div>
@@ -65,7 +67,8 @@ function Plot(props: PlotProps) {
             {/* Plot */}
             <div className="plot" >
                 <div className="name">
-                    {/* <p>{index} {city}</p> */}
+                    <p className="place">{index} {city}</p>
+                    <div className="arrow-down"></div>
                 </div>
             </div>
             <div className="path path-mid"></div>
